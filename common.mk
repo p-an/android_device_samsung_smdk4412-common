@@ -34,10 +34,6 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf \
     $(COMMON_PATH)/audio/silence.wav:system/etc/sound/silence.wav
 
-# Camera FW
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/80cfw:system/etc/init.d/80cfw
-
 # Netflix hack
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/98netflix:system/etc/init.d/98netflix
