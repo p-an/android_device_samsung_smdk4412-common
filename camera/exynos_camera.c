@@ -3485,7 +3485,7 @@ int exynos_camera_recording_enabled(struct camera_device *dev)
 }
 
 void exynos_camera_release_recording_frame(struct camera_device *dev,
-	const void *opaque)
+	const void __unused *opaque)
 {
 	struct exynos_camera *exynos_camera;
 
